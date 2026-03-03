@@ -5,7 +5,6 @@ public class count_digit {
         int a=12345;
         int b=0;
         while(a>0){
-            int c=a%10;
             b=b+1;
              a=a/10;
         }
